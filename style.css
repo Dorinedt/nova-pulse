@@ -1,0 +1,192 @@
+body {
+    background-color: black; 
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color:white; 
+}
+
+.navbar-brand:hover{
+    color:#0066FF;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #0066FF !important;
+}
+
+.btn-style{
+    background-color: #0066FF;
+    color: white;
+    transition: all 0.3s ease;
+    margin-right: 60px;
+}
+
+.btn-style:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.logo-icon {
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+    position: relative;
+}
+
+.hero-section {
+    padding: 100px 0;
+}
+
+.headline {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.subtext {
+    color: #a0a0a0;
+    font-size: 1.1rem;
+    max-width: 500px;
+    margin-bottom: 2.5rem;
+}
+
+.btn-reserve {
+    background-color: #0066FF;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.btn-reserve:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.watch-img {
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 90px rgba(0, 102, 255, 0.6))
+}
+
+.icon-box {
+    width: 45px;
+    height: 45px;
+    background-color: #0066FF; 
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.avis-section{
+    background-color: #FDFCFB;
+}
+
+.avis-texte{
+    font-size: 2rem; 
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: #1a1a1a;
+}
+
+.signature {
+    font-size: 1.1rem;
+    letter-spacing: 0.01em;
+}
+
+.newsletter-section {
+    background-color: #0066FF; 
+    border-radius: 0; 
+    padding: 60px 0;
+}
+
+.newsletter-group .form-control {
+    background: white;
+    border: none;
+    padding: 12px 20px;
+    height: 50px;
+}
+
+.newsletter-group .btn {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+.newsletter-group .btn:hover {
+    background-color: white;
+    color: #3b82f6;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 0.85rem;
+}
+
+.btn-reserve-submit {
+    background-color: #0066FF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-reserve-submit:hover {
+    background-color: #0052cc;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 102, 255, 0.3);
+    color: white;
+}
+
+.text-primary {
+    color: #0066FF !important;
+}
+
+.info-paiement {
+    color: grey;
+}
+
+.back-link {
+    margin-left: 80px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: #0066FF !important;
+    transform: translateX(-5px);
+}
+
+.badge {
+    background-color: rgba(0, 102, 255, 0.1); 
+    color: #0066FF; 
+    border: 1px solid #0066FF;
+}
+
+.card {
+    background-color: #121417; 
+    border-radius: 20px; 
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
